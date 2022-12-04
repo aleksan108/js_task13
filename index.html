@@ -14,11 +14,21 @@
         <div id = "container">
         </div>
         <div class="result">
+            <div class="full_author">
+                <img src="./assets/no_pic.png" alt="Нажмите для выбора файла." class="avatar" id="imgID">
+                <span>Имя:</span><input type="text" id="author"></input>
+            </div>
+            <div class="full_author">
+                <span>Ссылка на аватарку:</span><input type="text" name="avatar_url" id="avatar_url">
+            </div>
+            <span>Комментарий: </span>
             <textarea id="new_comment" rows="4"></textarea>
-        </div>
-        <div class="div_buttons">
-            <input type ="button" value="Post" class="ibutton" id="postButton">
-            </input>
+            <div>
+                <input type ="button" value="Post" class="ibutton" id="postButton">
+                </input>
+                <input type ="button" value="Apply Avatar" class="ibutton" id="setPic">
+                </input>
+            </div>
         </div>
     </form>
     <script src="./scripts.js"></script>  

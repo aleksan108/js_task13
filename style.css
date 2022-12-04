@@ -1,13 +1,15 @@
 #formID{
     display: flex;
     flex-direction: column;
+    justify-content: end;
+    padding: 10px;
     grid-gap: 20px;
-    width: 450px;
+    width: 600px;
     margin: auto;
     position: relative;
     top: 20em;
     border: 2px solid black;
-    padding: 100px;
+    min-height: 500px;
     border-radius: 5px;
     background-color: rgb(243, 235, 226);
     font-size: larger;
@@ -15,15 +17,16 @@
 
 #container{
     font-style: italic;
+    width: 500px;
+    margin: auto;
 }
 
 .comment_div{
-    border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
-    background-color:azure;
+    background-color:rgb(255, 255, 255);
     margin-top: 2px;
     padding: 2px;
-    opacity: 75%;
+    
 }
 
 .ibutton{
@@ -34,6 +37,7 @@
     justify-self: center;
     padding: 7px 45px;
     font-weight: 700;
+    margin-top: 10px;
 }
 
 .ibutton:hover{
@@ -47,14 +51,34 @@ input{
     border: 2px solid black
 }
 
+.avatar{
+    width: 50px;
+    height: 50px;
+}
+
+#author{
+    margin-bottom: 5px;
+    width: 300px;
+    height: 15px;
+}
+
+.full_author{
+    display: flex;
+    align-items: center;
+}
+
 .result{
+    display: flex;
+    flex-direction: column;
     width: auto;
     height: auto;
+    padding-bottom: 10px;
 }
 
 #new_comment{
     border-radius: 5px;
     width: 450px;
+    border: 1px solid black;
 }
 
 .div_buttons{
@@ -66,4 +90,13 @@ input{
 .span_buttons{
     font-size: 30px;
     font-weight: bold;
+}
+
+#avatar_url{
+    width: 44%;
+}
+
+.small_img{
+    width: 20px;
+    height: 20px;
 }
